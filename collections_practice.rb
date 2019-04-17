@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
     array.each{|name| name[2] = "$"}
 end
-<<<<<<< HEAD
+
 
 def find_a(array)
     array.select{|a| a.start_with?("a")}
@@ -36,5 +36,4 @@ end
 def add_s(array)
   array.each_with_index.collect {|element, index| element = index == 1 ? element : element << "s"}
 end
-=======
->>>>>>> e2d3a58e1fcdccfb6c6c8e12f8f82ee685242703
+
